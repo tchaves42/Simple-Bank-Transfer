@@ -12,7 +12,7 @@ This project is an integral part of the backend test, showcasing Java implementa
 
 1.Get started by launching Insomnia.
 
-2. Utilize the `_.baseUrl/users` endpoint to create two distinct users. Don't forget to provide the following details for each user:
+2. Utilize the `http://localhost:8080/users` endpoint to create two distinct users. Don't forget to provide the following details for each user:
    - `firstName`
    - `lastName`
    - `password`
@@ -20,7 +20,7 @@ This project is an integral part of the backend test, showcasing Java implementa
    - `email`
    - `userType` (COMMON ou MERCHANT)
    - `balance` (wallet balance)
-3. Once your users are in place, leverage the `_.baseUrl/transactions` endpoint to facilitate a transaction between them. Ensure you furnish the following essential parameters:
+3. Once your users are in place, leverage the `http://localhost:8080/transactions` endpoint to facilitate a transaction between them. Ensure you furnish the following essential parameters:
    - `senderId: 1`
    - `receiverId: 2`
    - `value: 10`
